@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="ABC" id="id-a840ac0bb8dd4adeb311b1c32dbb7375" version="5.0.0">
-  <folder name="Strategy" id="id-c3c16f8bece943d8a558d9d1557c6b76" type="strategy">
-    <element xsi:type="archimate:Resource" name="Resource" id="id-ece036368fb84c72bbd4dd8a6b1cee72"/>
-  </folder>
+  <folder name="Strategy" id="id-c3c16f8bece943d8a558d9d1557c6b76" type="strategy"/>
   <folder name="Business" id="id-74f194c6c37a407d976b73bf033169e5" type="business"/>
   <folder name="Application" id="id-e9fb216654804444ac24480ad625f33b" type="application"/>
   <folder name="Technology &amp; Physical" id="id-8fabb3e76c7a4eb0ac0f55bd3ad337f5" type="technology"/>
