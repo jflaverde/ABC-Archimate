@@ -28,6 +28,7 @@
     <element xsi:type="archimate:Goal" name="Convertirse en uno de los 5 proveedores más importantes de latinoamerica" id="id-3b18f63969f0493aba8f9c7499af8559"/>
     <element xsi:type="archimate:Outcome" name="Incrementar la cobertura en un 30% en los paises donde tenemos presencia" id="id-cdbddeed8fda48ffa14f485ef9215926"/>
     <element xsi:type="archimate:Outcome" name="Aumentar la presencia en 5 paises de latinoamerica" id="id-7db4791b781f4cbd9704e3dfd12c2758"/>
+    <element xsi:type="archimate:Principle" name="Prueba de principio" id="id-20f5adc0cb124f2da15457dd95dd4ac1"/>
   </folder>
   <folder name="Implementation &amp; Migration" id="id-48da49f85aa344a0af61bc8ac12e69ee" type="implementation_migration"/>
   <folder name="Other" id="id-875d05a83df04ce0a658c38c312f88c9" type="other"/>
