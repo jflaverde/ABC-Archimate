@@ -27,7 +27,7 @@
     <element xsi:type="archimate:Capability" name="Crear Perfiles" id="id-8f921f2600c34f7d8b5aa7a20f5dda84"/>
     <element xsi:type="archimate:Capability" name="Crear Roles Recursos Contratados ABC" id="id-6165ab25a8564760a949fead8aa16036"/>
     <element xsi:type="archimate:Capability" name="Evaluar Contratados" id="id-575ac7bc89544ee699b3f56e3f795864"/>
-    <element xsi:type="archimate:ValueStream" name="Adquisicion de talento humano" id="id-3e1b13961f9e4b3c98117e2fb1c1505f"/>
+    <element xsi:type="archimate:ValueStream" name="Adquisición de talento humano" id="id-3e1b13961f9e4b3c98117e2fb1c1505f"/>
     <element xsi:type="archimate:ValueStream" name="Registro de Profesionales" id="id-a89757772a1447cb89e1c5e95e8b46e6"/>
     <element xsi:type="archimate:ValueStream" name="Preselección" id="id-7f7391fea3c14522b5df297b800de313"/>
     <element xsi:type="archimate:ValueStream" name="Gestion Empresa" id="id-d4ac8ed99102405b8b77f248d30f92d8"/>
