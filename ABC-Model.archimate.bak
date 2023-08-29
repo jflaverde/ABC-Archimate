@@ -1121,11 +1121,11 @@
         <bounds x="-12" y="36" width="120" height="55"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-f0e3a1af39a44304b2056e2d03d2c914" targetConnections="id-d16020eaeb8a426da61916178a3036ac" archimateElement="id-dabb23c13f4e4b238d910043ea81ad9a">
-        <bounds x="-157" y="912" width="169" height="61"/>
+        <bounds x="60" y="924" width="169" height="61"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-3d13dcd868fb4385a77586554811019c" source="id-f0e3a1af39a44304b2056e2d03d2c914" target="id-e43d673f483a4e23b881e74fa518ada8" archimateRelationship="id-3936816ed56c4d1c8418092dc899d553"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-3d2442565a5c48b59c9dd31a828b315f" targetConnections="id-a20bb8aa5ac4450ea454a2334cdb073f id-95daf635c6884521b95278c3e875e1aa" archimateElement="id-1ae0bbb0047d44c999a188fd556055aa">
-        <bounds x="-132" y="1032" width="120" height="55"/>
+        <bounds x="85" y="1044" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-d16020eaeb8a426da61916178a3036ac" source="id-3d2442565a5c48b59c9dd31a828b315f" target="id-f0e3a1af39a44304b2056e2d03d2c914" archimateRelationship="id-a7439321eb1146fdb1ebc9d3da64ecf5"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-b5c5665780e34207ad362560364be5e8" archimateElement="id-1347abb0b9ed417198d1c6c643ca7e84">
@@ -1145,18 +1145,23 @@
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-5543219f62fe45efaddfa16ee432a48d" targetConnections="id-21d6708ed0414e5fbd3522c22f5600e0 id-ac15ce1848344ae5a02c50a5d435f4eb" archimateElement="id-68180879f3884ca68fcae0d15709d0cb">
         <bounds x="-180" y="1182" width="193" height="55"/>
-        <sourceConnection xsi:type="archimate:Connection" id="id-a20bb8aa5ac4450ea454a2334cdb073f" source="id-5543219f62fe45efaddfa16ee432a48d" target="id-3d2442565a5c48b59c9dd31a828b315f" archimateRelationship="id-df324f75c9ec4e19b7f6a4b8110883b0"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-a20bb8aa5ac4450ea454a2334cdb073f" source="id-5543219f62fe45efaddfa16ee432a48d" target="id-3d2442565a5c48b59c9dd31a828b315f" archimateRelationship="id-df324f75c9ec4e19b7f6a4b8110883b0">
+          <bendpoint startY="-56" endX="-228" endY="82"/>
+          <bendpoint startX="204" startY="-56" endX="-24" endY="82"/>
+        </sourceConnection>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-c333b1faff6d4008a89a737dd9f33725" targetConnections="id-76237978263844bb989e9853c3fc4e3b id-107888e0306f4db9bb8c3f472443b19c" archimateElement="id-256bbbfce75e4820801064eb5dd4199a">
         <bounds x="287" y="1200" width="193" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-95daf635c6884521b95278c3e875e1aa" source="id-c333b1faff6d4008a89a737dd9f33725" target="id-3d2442565a5c48b59c9dd31a828b315f" archimateRelationship="id-430dd5a44191461e9e7a6a3f19276b00">
           <bendpoint startX="2" startY="-62" endX="456" endY="106"/>
-          <bendpoint startX="2" startY="-98" endX="456" endY="70"/>
-          <bendpoint startX="-444" startY="-98" endX="24" endY="70"/>
+          <bendpoint startX="38" startY="-74" endX="276" endY="82"/>
+          <bendpoint startX="-70" startY="-74" endX="168" endY="82"/>
+          <bendpoint startX="-202" startY="-74" endX="36" endY="82"/>
+          <bendpoint startX="-202" startY="-110" endX="36" endY="46"/>
         </sourceConnection>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-e43d673f483a4e23b881e74fa518ada8" targetConnections="id-3d13dcd868fb4385a77586554811019c" archimateElement="id-1ef450e3c59d4476b460bdff2fcd8c94">
-        <bounds x="-132" y="816" width="120" height="55"/>
+        <bounds x="85" y="828" width="120" height="55"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-3e25d0fdfbdf42438a71c063cffe2062" archimateElement="id-2231bee14834462886421bc85fb7a44d">
         <bounds x="168" y="1332" width="169" height="55"/>

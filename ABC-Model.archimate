@@ -193,6 +193,8 @@
     <element xsi:type="archimate:Stakeholder" name="Empresa" id="id-1ef450e3c59d4476b460bdff2fcd8c94"/>
     <element xsi:type="archimate:Requirement" name="Garantizar la interoperabilidad con el cliente" id="id-2231bee14834462886421bc85fb7a44d"/>
     <element xsi:type="archimate:Requirement" name="Ofrecer evaluaciones especializadas segun el sector" id="id-d312814f0f8c434ba141d058cbaf35c0"/>
+    <element xsi:type="archimate:Requirement" name="Requirement" id="id-b6b27d47fcca482aa67c5f4d98782a88"/>
+    <element xsi:type="archimate:Constraint" name="la comunicación debe hacerse solo atraves de protocolo GraphQL y gRPC" id="id-7d81f44672ab405794822491f34d4d5c"/>
   </folder>
   <folder name="Implementation &amp; Migration" id="id-48da49f85aa344a0af61bc8ac12e69ee" type="implementation_migration"/>
   <folder name="Other" id="id-875d05a83df04ce0a658c38c312f88c9" type="other"/>
@@ -398,6 +400,7 @@
     <element xsi:type="archimate:InfluenceRelationship" id="id-3936816ed56c4d1c8418092dc899d553" source="id-dabb23c13f4e4b238d910043ea81ad9a" target="id-1ef450e3c59d4476b460bdff2fcd8c94"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-affcdf3991664da099c5d7b2ca3287f5" source="id-2231bee14834462886421bc85fb7a44d" target="id-256bbbfce75e4820801064eb5dd4199a"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-e8eb00bd939546538bf273aba3f211fb" source="id-d312814f0f8c434ba141d058cbaf35c0" target="id-256bbbfce75e4820801064eb5dd4199a"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-3d1e164527364c538eb868b592e73739" source="id-7d81f44672ab405794822491f34d4d5c" target="id-2231bee14834462886421bc85fb7a44d"/>
   </folder>
   <folder name="Views" id="id-52a4fea5d919414ea74c92c6da0bc419" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-90d811a3913d407182f3e0cb23be8161"/>
@@ -1163,7 +1166,7 @@
       <child xsi:type="archimate:DiagramObject" id="id-e43d673f483a4e23b881e74fa518ada8" targetConnections="id-3d13dcd868fb4385a77586554811019c" archimateElement="id-1ef450e3c59d4476b460bdff2fcd8c94">
         <bounds x="85" y="828" width="120" height="55"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="id-3e25d0fdfbdf42438a71c063cffe2062" archimateElement="id-2231bee14834462886421bc85fb7a44d">
+      <child xsi:type="archimate:DiagramObject" id="id-3e25d0fdfbdf42438a71c063cffe2062" targetConnections="id-d2a37cb40f3a4e799ba86861006f5671" archimateElement="id-2231bee14834462886421bc85fb7a44d">
         <bounds x="168" y="1332" width="169" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-76237978263844bb989e9853c3fc4e3b" source="id-3e25d0fdfbdf42438a71c063cffe2062" target="id-c333b1faff6d4008a89a737dd9f33725" archimateRelationship="id-affcdf3991664da099c5d7b2ca3287f5">
           <bendpoint startY="-62" endX="-130" endY="70"/>
@@ -1176,6 +1179,10 @@
           <bendpoint startY="-74" endX="122" endY="58"/>
           <bendpoint startX="-72" startY="-74" endX="50" endY="58"/>
         </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-92e594cc8bae4e33ace0f7f016a5106e" archimateElement="id-7d81f44672ab405794822491f34d4d5c">
+        <bounds x="160" y="1452" width="185" height="72"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-d2a37cb40f3a4e799ba86861006f5671" source="id-92e594cc8bae4e33ace0f7f016a5106e" target="id-3e25d0fdfbdf42438a71c063cffe2062" archimateRelationship="id-3d1e164527364c538eb868b592e73739"/>
       </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="Estrategia View (API)" id="id-6ec1ec264481492f9e6dd8853398a167">
